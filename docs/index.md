@@ -15,4 +15,4 @@ AI-VOX is a curated collection of demonstrations, tutorials, and best practices 
 
 ## Quick Links
 
-- [View Demos](demos/index.md)
+- [View Demos](demos.md)

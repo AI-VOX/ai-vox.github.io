@@ -56,8 +56,4 @@ extra:
 
 nav:
   - Home: index.md
-  - Demos:
-    - demos/index.md
-    - SAP Agentic AI: demos/sap-agentic-ai.md
-    - ERP Automation: demos/erp-automation.md
-    - Video Showcases: demos/video-showcases.md
+  - Demos: demos.md
