@@ -56,13 +56,8 @@ extra:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
   - Demos:
     - demos/index.md
     - SAP Agentic AI: demos/sap-agentic-ai.md
     - ERP Automation: demos/erp-automation.md
     - Video Showcases: demos/video-showcases.md
-  - Guides:
-    - guides/index.md
-    - Building Agents: guides/building-agents.md
-    - Best Practices: guides/best-practices.md
