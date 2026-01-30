@@ -15,14 +15,4 @@ AI-VOX is a curated collection of demonstrations, tutorials, and best practices 
 
 ## Quick Links
 
-<div class="grid cards" markdown>
-
--   :material-play-circle:{ .lg .middle } **Demos**
-
-    ---
-
-    Explore live demonstrations and video walkthroughs
-
-    [:octicons-arrow-right-24: View Demos](demos/index.md)
-
-</div>
+- [View Demos](demos/index.md)
