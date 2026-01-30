@@ -1,0 +1,68 @@
+site_name: AI-VOX
+site_description: AI Voice of eXperience - Demos, Videos & Resources for SAP, ERP & Agentic AI
+site_url: https://ai-vox.github.io
+repo_url: https://github.com/AI-VOX/ai-vox.github.io
+repo_name: AI-VOX
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AI-VOX
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Demos:
+    - demos/index.md
+    - SAP Agentic AI: demos/sap-agentic-ai.md
+    - ERP Automation: demos/erp-automation.md
+    - Video Showcases: demos/video-showcases.md
+  - Guides:
+    - guides/index.md
+    - Building Agents: guides/building-agents.md
+    - Best Practices: guides/best-practices.md
